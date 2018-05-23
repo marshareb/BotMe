@@ -1,1 +1,0 @@
-from BotMe import main
