@@ -1,1 +1,1 @@
-from BotMe import main
+from BotMe import *

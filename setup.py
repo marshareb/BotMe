@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'BotMe',
   packages = ['BotMe'],
-  version = '0.1',
+  version = '0.2',
   description = 'A basic library for building and maintaining GroupMe Bots',
   author = 'James Marshall Reber',
   author_email = 'jamesmarshallreber@gmail.com',
