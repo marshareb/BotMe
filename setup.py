@@ -3,7 +3,7 @@ setup(
   name = 'BotMe',
   packages = ['BotMe'],
   version = '0.1',
-  description = 'A basic library for building and maintaining GroupmeBots',
+  description = 'A basic library for building and maintaining GroupMe Bots',
   author = 'James Marshall Reber',
   author_email = 'jamesmarshallreber@gmail.com',
   url = 'https://github.com/marshareb/BotMe',
