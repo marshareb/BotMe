@@ -13,7 +13,7 @@ pip install BotMe
 
 First, import BotMe by running
 ```
-import BotMe as Bot
+import BotMe.main as Bot
 ```
 
 ## Initializing the Bot
