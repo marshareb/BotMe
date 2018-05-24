@@ -91,3 +91,8 @@ bot.post_picture('picture_name', 'message')
 
 The message portion of this function is optional. If your image is not in the same directory,
 replace 'picture_name' with a path to the picture itself.
+
+## Example
+
+For a good example of BotMe in action, check out my Latex Bot for GroupMe at
+https://github.com/marshareb/latex_bot
