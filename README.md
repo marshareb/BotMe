@@ -92,7 +92,7 @@ bot.post_picture('picture_name', 'message')
 The message portion of this function is optional. If your image is not in the same directory,
 replace 'picture_name' with a path to the picture itself.
 
-## Retreiveing Members
+## Retrieving Members
 
 With the bot started, you can also see who is in the group. To do so, simply cal
 
