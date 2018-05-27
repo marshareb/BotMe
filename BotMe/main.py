@@ -80,3 +80,12 @@ class Manager:
         x = r.get(str(url + '/groups/' + self.group_id + self.key))
         return (x.json()['response']['messages']['preview']['nickname'],
                 x.json()['response']['messages']['preview']['text'])
+
+    # GET MEMBERS IN THE GROUP (RETURNS A LIST)
+    def retrieve_members(self):
+        members = []
+        x = r.get(str(url + '/groups' + self.key))
+        for i in x.json()['response']:
+            if i['group_id'] == self.group_id:
+                members = [j['nickname'] for j in i['members']]
+        return members

@@ -92,6 +92,16 @@ bot.post_picture('picture_name', 'message')
 The message portion of this function is optional. If your image is not in the same directory,
 replace 'picture_name' with a path to the picture itself.
 
+## Retreiveing Members
+
+With the bot started, you can also see who is in the group. To do so, simply cal
+
+```
+bot.retrieve_members()
+```
+
+A list with the nicknames of all the members will be returned.
+
 ## Example
 
 For a good example of BotMe in action, check out my Latex Bot for GroupMe at
